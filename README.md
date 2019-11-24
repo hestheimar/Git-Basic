@@ -17,4 +17,3 @@ __4. view ssh key__
 * $ vi ~/.ssh/id_rsa.pub
 
 __5. copy ssh key and register it to github setting page__
-
