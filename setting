@@ -1,19 +1,16 @@
-# git-setting-ubuntu
-setting git in ubuntu
+1. install git
+$ sudo apt-get install git-core
 
-__1. install git__
-* $ sudo apt-get install git-core
+2. set github account 
+$ git config --global user.name "username"
+$ git config --global user.email "email"
 
-__2. set github account__ 
-* $ git config --global user.name "username"
-* $ git config --global user.email "email"
+3. generate ssh key
+$ ssh-keygen -t rsa -b 4096 -C "email"
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_rsa
 
-__3. generate ssh key__
-* $ ssh-keygen -t rsa -b 4096 -C "email"
-* $ eval "$(ssh-agent -s)"
-* $ ssh-add ~/.ssh/id_rsa
+4. view ssh key
+$ vi ~/.ssh/id_rsa.pub
 
-__4. view ssh key__
-* $ vi ~/.ssh/id_rsa.pub
-
-__5. copy ssh key and register it to github setting page__
+5. copy ssh key and register it to github setting page
