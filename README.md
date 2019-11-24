@@ -1,5 +1,4 @@
-# git-setting-ubuntu
-setting git in ubuntu
+# initial setting git in ubuntu
 
 __1. install git__
 * $ sudo apt-get install git-core
