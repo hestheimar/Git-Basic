@@ -2,7 +2,7 @@
 setting git in ubuntu
 
 __1. install git__
-* $ apt-get install git-core
+* $ sudo apt-get install git-core
 
 __2. set github account__ 
 * $ git config --global user.name "username"
